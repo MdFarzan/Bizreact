@@ -6,8 +6,9 @@ import Button from "react-bootstrap/Button";
 
 export default function AboutUs() {
   return (
+    <section className="mt-2 py-4 py-lg-5">
     <Container>
-      <section className="mt-2 py-4 py-lg-5">
+
         <Row>
           <Col md={5} className="border-1">
             <img src="about-us/man-pointing-right.png" className="img-fluid" />
@@ -38,7 +39,7 @@ export default function AboutUs() {
             <Button variant="primary">Read More</Button>
           </Col>
         </Row>
-      </section>
     </Container>
+    </section>
   );
 }
