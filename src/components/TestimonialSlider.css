@@ -1,0 +1,19 @@
+.star-rating img{
+    max-width:32px;
+}
+
+.avtar-wrap img{
+    max-width:120px;
+    margin-bottom:15px;
+}
+
+.testimonial-wrap{
+    width:80%;
+    margin:0 auto;
+}
+
+.testimonial-wrap .quote{
+    max-width:92px;
+    top:30%;
+    opacity:0.2;
+}

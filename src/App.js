@@ -4,6 +4,8 @@ import "./App.css";
 import AboutUs from "./components/AboutUs";
 import Services from './components/Services';
 import WhyUs from "./components/WhyUs";
+import TestimonialSlider from "./components/TestimonialSlider";
+
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <AboutUs />
       <Services />
       <WhyUs />
+      <TestimonialSlider />
+      
     </div>
   );
 }
