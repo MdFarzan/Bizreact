@@ -3,6 +3,7 @@ import PrimaryNav from "./components/PrimaryNav";
 import "./App.css";
 import AboutUs from "./components/AboutUs";
 import Services from './components/Services';
+import WhyUs from "./components/WhyUs";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <HeroSlider />
       <AboutUs />
       <Services />
+      <WhyUs />
     </div>
   );
 }
