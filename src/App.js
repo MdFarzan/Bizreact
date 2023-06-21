@@ -6,6 +6,7 @@ import Services from './components/Services';
 import WhyUs from "./components/WhyUs";
 import TestimonialSlider from "./components/TestimonialSlider";
 import CTA from "./components/CTA";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <WhyUs />
       <TestimonialSlider />
       <CTA />
+      <Footer />
       
     </div>
   );
