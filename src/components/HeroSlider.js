@@ -17,16 +17,10 @@ export default class HeroSlider extends Component {
       <Row>
         <Slider {...settings}>
           <div className="w-100">
-            <img src="slides/test.jpg" className="img-fluid" />
+            <img src="slides/slide-1.jpg" className="img-fluid w-100" />
           </div>
           <div className="w-100">
-            <img src="slides/test.jpg" className="img-fluid" />
-          </div>
-          <div>
-            <img src="slides/test.jpg" className="img-fluid" />
-          </div>
-          <div>
-            <img src="slides/test.jpg" className="img-fluid" />
+            <img src="slides/slide-2.jpg" className="img-fluid w-100" />
           </div>
         </Slider>
       </Row>
