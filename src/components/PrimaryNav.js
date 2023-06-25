@@ -52,7 +52,9 @@ function PrimaryNav() {
           </Nav>
           <Nav>
             <LinkContainer to="/contact">
-              <Nav.Link>Get A Quote</Nav.Link>
+              <Nav.Link className="btn bg-dark text-white px-3 m-0">
+                Get A Quote
+              </Nav.Link>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
