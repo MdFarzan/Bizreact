@@ -13,11 +13,13 @@ import About from "./pages/About";
 import Home from "./pages/Home";
 import ContactUs from "./pages/ContactUs";
 import ComingSoon from "./pages/ComingSoon";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <PrimaryNav />
 
         <Routes>
