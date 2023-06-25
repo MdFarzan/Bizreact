@@ -18,3 +18,14 @@ h1, h2, h3, h4, h5, h6{
   text-transform: uppercase;
   font-weight: 500 !important;
 }
+
+.text-justify{
+  text-align:justify;
+}
+
+@media (min-width:1200px){
+  section.py-lg-6{
+    padding-top:70px !important;
+    padding-bottom: 70px !important;
+  }
+}

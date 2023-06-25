@@ -16,3 +16,9 @@
 .cta a{
     text-decoration:none;
 }
+
+@media (max-width:767px){
+    .cta .icon{
+        margin:0 auto;
+    }
+}

@@ -13,21 +13,21 @@ export default function WhyUs() {
             <CenterTitle title="Choose Us" subtitle="Why to"></CenterTitle>
 
             <Row className="mt-3">
-              <Col md="3" lg="4">
+              <Col md="6" lg="4">
                 <SingleFact
                   num="100 +"
                   icon="why-us/project-management.png"
                   title="Project served"
                 />
               </Col>
-              <Col md="3" lg="4">
+              <Col md="6" lg="4">
                 <SingleFact
                   num="95 +"
                   icon="why-us/costumer.png"
                   title="Happy clients"
                 />
               </Col>
-              <Col md="3" lg="4">
+              <Col md={{ span: 6, offset: 3 }} lg={{ span: 4, offset: 0 }}>
                 <SingleFact
                   num="15 +"
                   icon="why-us/professional-services.png"

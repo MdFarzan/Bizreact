@@ -6,7 +6,7 @@ import SingleService from "./SingleService";
 
 export default function Services() {
   return (
-    <section className="mt-2 py-4 py-lg-5" style={{ background: "#f6f6f6" }}>
+    <section className="mt-2 py-5 py-lg-6" style={{ background: "#f6f6f6" }}>
       <Container>
         <Row>
           <Col sm={12}>
@@ -18,7 +18,7 @@ export default function Services() {
               <SingleService
                 link="web-design"
                 sm="12"
-                md="3"
+                md="6"
                 lg="4"
                 xl="4"
                 xxl="4"
@@ -29,7 +29,7 @@ export default function Services() {
               <SingleService
                 link="web-development"
                 sm="12"
-                md="3"
+                md="6"
                 lg="4"
                 xl="4"
                 xxl="4"
@@ -40,7 +40,7 @@ export default function Services() {
               <SingleService
                 link="ui-ux"
                 sm="12"
-                md="3"
+                md="6"
                 lg="4"
                 xl="4"
                 xxl="4"
@@ -51,7 +51,7 @@ export default function Services() {
               <SingleService
                 link="graphic-design"
                 sm="12"
-                md="3"
+                md="6"
                 lg="4"
                 xl="4"
                 xxl="4"
@@ -62,7 +62,7 @@ export default function Services() {
               <SingleService
                 link="crm-development"
                 sm="12"
-                md="3"
+                md="6"
                 lg="4"
                 xl="4"
                 xxl="4"
@@ -73,7 +73,7 @@ export default function Services() {
               <SingleService
                 link="marketing-software"
                 sm="12"
-                md="3"
+                md="6"
                 lg="4"
                 xl="4"
                 xxl="4"

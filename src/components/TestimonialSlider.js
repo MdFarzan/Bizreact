@@ -17,7 +17,7 @@ export default class TestimonialSlider extends Component {
     };
 
     return (
-      <section className="mt-2 py-4 py-lg-5" style={{ background: "#f6f6f6" }}>
+      <section className="mt-2 py-5 py-lg-6" style={{ background: "#f6f6f6" }}>
         <div className="testimonial-wrap position-relative">
           <img
             src="testimonial/left-quote.png"

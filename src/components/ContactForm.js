@@ -1,6 +1,6 @@
-import { FloatingLabel } from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
+import { FloatingLabel } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
 
 export default function ContactForm() {
   return (
@@ -20,19 +20,19 @@ export default function ContactForm() {
       <Form.Group className="mb-3" controlId="subject">
         <Form.Control type="text" placeholder="We will talk about ..." />
       </Form.Group>
-        
+
       <FloatingLabel controlId="message" label="Message">
         <Form.Control
           as="textarea"
           placeholder="Any message"
-          style={{ height: '100px' }}
+          style={{ height: "100px" }}
         />
       </FloatingLabel>
-      
-      <Button variant="primary" className="mt-3" type="submit">
-        Submit
-      </Button>
+      <div className="text-center text-md-start">
+        <Button variant="primary" className="mt-3" type="submit">
+          Submit
+        </Button>
+      </div>
     </Form>
   );
 }
-
