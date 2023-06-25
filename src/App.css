@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,700;1,500&family=Heebo:wght@300;400;500&display=swap');
 
 body{
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow', sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6{
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Heebo', sans-serif !important;
 }
 
 .App {
