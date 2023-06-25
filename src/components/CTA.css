@@ -1,8 +1,18 @@
 .cta .icon{
     height: 72px;
     width:72px;
+    padding:10px;
 }
 
 .cta .heading{
-    font-size:26px;
+    font-size:22px;
+}
+
+.cta h5{
+    font-size:17px;
+    font-weight: 400;
+}
+
+.cta a{
+    text-decoration:none;
 }

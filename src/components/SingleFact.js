@@ -15,8 +15,8 @@ export default function SingleFact(props) {
           sm="8"
           className="d-md-flex flex-md-column justify-content-md-center"
         >
-          <h4>{props.num}</h4>
-          <p className="mb-0">{props.title}</p>
+          <h4 className="mb-0">{props.num}</h4>
+          <p className="mb-0 lead">{props.title}</p>
         </Col>
       </Row>
     </Col>

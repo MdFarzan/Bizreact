@@ -8,7 +8,7 @@ export default function About() {
   return (
     <>
       <PageHeader title="About us" />
-      <AboutUs />
+      <AboutUs showButton="0" />
       <WhyUs />
       <TestimonialSlider />
       <Footer />

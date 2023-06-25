@@ -3,8 +3,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import LeftTitle from "./LeftTitle";
 import Button from "react-bootstrap/Button";
+import { LinkContainer } from "react-router-bootstrap";
 
-export default function AboutUs() {
+export default function AboutUs(props) {
   return (
     <section className="mt-2 py-4 py-lg-5">
       <Container>
@@ -29,7 +30,12 @@ export default function AboutUs() {
               ipsum dolor sit amet..", comes from a line in section 1.10.32.
             </p>
 
-            <Button variant="primary">Read More</Button>
+            {(typeof props.showButton == "undefined" ||
+              props.showButton == 1) && (
+              <LinkContainer to="/about">
+                <Button variant="primary">Read More</Button>
+              </LinkContainer>
+            )}
           </Col>
         </Row>
       </Container>

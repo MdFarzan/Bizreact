@@ -10,6 +10,13 @@
     border-top:5px solid transparent;
     transition: 200ms;
     transition-timing-function: ease-in-out ;
+    margin:15px;
+}
+
+.single-service-wrap h4{
+    margin: 6px 15px;
+    font-size:1.2em;
+
 }
 
 .single-service-wrap:hover{

@@ -16,7 +16,7 @@ export default function CTA() {
                     <span className="icon d-block">
                       <img
                         className="img-fluid"
-                        src="services/ux.png"
+                        src="contact/call.png"
                         alt="icon"
                       />
                     </span>
@@ -35,7 +35,7 @@ export default function CTA() {
                     <span className="icon d-block">
                       <img
                         className="img-fluid"
-                        src="services/ux.png"
+                        src="contact/email.png"
                         alt="icon"
                       />
                     </span>
@@ -54,7 +54,7 @@ export default function CTA() {
                     <span className="icon d-block">
                       <img
                         className="img-fluid"
-                        src="services/ux.png"
+                        src="contact/office-building.png"
                         alt="icon"
                       />
                     </span>
