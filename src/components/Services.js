@@ -16,6 +16,7 @@ export default function Services() {
             ></CenterTitle>
             <Row className="mt-4">
               <SingleService
+                link="web-design"
                 sm="12"
                 md="3"
                 lg="4"
@@ -26,6 +27,7 @@ export default function Services() {
                 desc="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia."
               />
               <SingleService
+                link="web-development"
                 sm="12"
                 md="3"
                 lg="4"
@@ -36,6 +38,7 @@ export default function Services() {
                 desc="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia."
               />
               <SingleService
+                link="ui-ux"
                 sm="12"
                 md="3"
                 lg="4"
@@ -46,6 +49,7 @@ export default function Services() {
                 desc="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia."
               />
               <SingleService
+                link="graphic-design"
                 sm="12"
                 md="3"
                 lg="4"
@@ -56,6 +60,7 @@ export default function Services() {
                 desc="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia."
               />
               <SingleService
+                link="crm-development"
                 sm="12"
                 md="3"
                 lg="4"
@@ -66,6 +71,7 @@ export default function Services() {
                 desc="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia."
               />
               <SingleService
+                link="marketing-software"
                 sm="12"
                 md="3"
                 lg="4"
