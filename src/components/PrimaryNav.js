@@ -14,7 +14,7 @@ function PrimaryNav() {
     >
       <Container>
         <LinkContainer to="/">
-          <Navbar.Brand>LOGO</Navbar.Brand>
+          <Navbar.Brand>BIZREACT</Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
