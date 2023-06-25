@@ -30,20 +30,24 @@ function PrimaryNav() {
               title="Services"
               id="collasible-nav-dropdown"
             >
-              <NavDropdown.Item href="#action/3.1">Web Design</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Web Development
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">UI/Ux</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">
-                Graphic Design
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">
-                CRM Development
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">
-                Marketing Software
-              </NavDropdown.Item>
+              <LinkContainer to="/service/web-design">
+                <NavDropdown.Item>Web Design</NavDropdown.Item>
+              </LinkContainer>
+              <LinkContainer to="/service/web-development">
+                <NavDropdown.Item>Web Development</NavDropdown.Item>
+              </LinkContainer>
+              <LinkContainer to="/service/ui-ux">
+                <NavDropdown.Item>UI/Ux</NavDropdown.Item>
+              </LinkContainer>
+              <LinkContainer to="/service/graphic-design">
+                <NavDropdown.Item>Graphic Design</NavDropdown.Item>
+              </LinkContainer>
+              <LinkContainer to="/service/crm-development">
+                <NavDropdown.Item>CRM Development</NavDropdown.Item>
+              </LinkContainer>
+              <LinkContainer to="/service/marketing-software">
+                <NavDropdown.Item>Marketing Software</NavDropdown.Item>
+              </LinkContainer>
             </NavDropdown>
 
             <LinkContainer to="/contact">
